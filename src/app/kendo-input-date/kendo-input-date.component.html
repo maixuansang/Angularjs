@@ -1,0 +1,11 @@
+<div class="example-wrapper">
+  <kendo-dateinput
+      (blur)="onBlur()"
+      (focus)="onFocus()"
+      (valueChange)="onChange($event)"
+      [value]="value"
+  >
+  </kendo-dateinput>
+  <event-log title="Event log" [events]="events">
+  </event-log>
+</div>
